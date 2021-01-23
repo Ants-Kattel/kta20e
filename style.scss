@@ -1,5 +1,12 @@
-$color: blue;
+$color1: #0072CE;
+$color2: black;
+$color3: white;
 
 body {
-    background-color: $color;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient($color1 33.33%, $color2 33.33%, $color2 66.66%, $color3 66.66%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
 }
